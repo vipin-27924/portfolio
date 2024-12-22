@@ -1,0 +1,220 @@
+* {
+  margin: 0%;
+  border: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+
+}
+
+.main {
+
+  height: 100%;
+  width: 100%;
+
+}
+
+#navbar {
+  background-color: black;
+  height: 140px;
+  display: flex;
+}
+
+#top {
+  background-color: rgb(0, 0, 0);
+  padding-top: 40px;
+  padding-left: 25px;
+  width: 8%;
+  font-weight: 800;
+  font-size: larger;
+  font-style: italic;
+  color: white;
+}
+
+#menu {
+  background-color: black;
+  color: rgb(228, 70, 70);
+}
+
+#menu:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: x-large;
+}
+
+.navtools {
+  color: white;
+  display: flex;
+
+  padding-left: 10px;
+  justify-content: space-evenly;
+  font-size: medium;
+  width: 100%;
+}
+
+.navconten {
+
+  height: 80px;
+  width: 125px;
+  padding-top: 50px;
+  font-size: larger;
+}
+
+#navcontent {
+
+  height: 40px;
+  width: 200px;
+  padding-top: 50px;
+  font-size: larger;
+}
+
+.navconten:hover {
+  font-size: x-large;
+  font-weight: 700;
+  color: rgb(228, 70, 70);
+  cursor: pointer;
+
+}
+
+#navcontent:hover {
+  font-size: x-large;
+  font-weight: 700;
+  color: rgb(228, 70, 70);
+  cursor: pointer;
+
+}
+
+#phot {
+  padding-top: 0%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8iw_c3C3l8PsU9Wtqrc9yAEYsZQLS76_T1Q&s);
+  background-size: cover;
+  height: 140px;
+  width: 450px;
+}
+
+i {
+  padding-top: 50px;
+  font-size: x-large;
+}
+
+#content {
+  width: 100%;
+  height: calc(100% - 140px);
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+#one {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 30%;
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  padding: 100px 80px;
+}
+
+#one span {
+  color: red;
+  font-weight: 400;
+}
+
+#para {
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  padding-top: 100px;
+  line-height: 21px;
+}
+
+#two {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 30%;
+  padding-top: 200px;
+
+}
+
+#bottle {
+  background-color: rgb(0, 0, 0);
+  padding-top: 20px;
+  height: 60%;
+  width: 90%;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  background-image: url(https://img.freepik.com/premium-photo/red-black-wallpaper-with-white-background-black-background-with-red-white-paint_853645-18816.jpg);
+  background-size: cover;
+  padding-left: 70px;
+  font-size: 100px;
+}
+
+#three {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 35%;
+
+}
+
+#butt {
+  padding-top: 10px;
+}
+
+#butt button {
+  border-radius: 50px;
+  padding: 16px 60px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+}
+
+#butt button:hover {
+  border-radius: 50px;
+  padding: 16px 60px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#content>img {
+  height: 100%;
+  position: absolute;
+  transform: translate(-50, 0);
+  left: 40%;
+  padding-top: 40px;
+
+}
+
+#third {
+  padding: 500px 50px;
+
+}
+
+#third h2 {
+  color: white;
+  width: 100%;
+  height: 50x;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  line-height: 50px;
+}
+
+#third i {
+  padding: 0px 100px;
+}
+
+#ww i {
+  padding: 0px 127px;
+}
+
+#third p {
+  color: white;
+  padding-top: 20px;
+}
